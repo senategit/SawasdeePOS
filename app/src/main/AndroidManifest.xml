@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chocofire.sawasdeepos">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:name="com.chocofire.sawasdeepos.SharedParam"
+        android:icon="@drawable/ratri_icon"
+        android:largeHeap="true"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ratri_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".Activity_Navigation"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".Activity_TakeOrder_Menu"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".Activity_Workstation"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".Activity_CookingNote"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".Activity_MemberSearch"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".Activity_MemberInfo"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".Activity_MemberRightS"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".Activity_ResourceMG"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".Activity_SeachProduct"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".Activity_CheckService"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".Activity_ResourceInfo"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".Activity_SearchResource"
+            android:screenOrientation="portrait"></activity>
+
+
+    </application>
+
+</manifest>

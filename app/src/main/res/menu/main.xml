@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/print_order"
+        android:icon="@drawable/bill_info_white"
+        android:title="Print Order"></item>
+
+    <item
+        android:title="Bill Information"
+        android:icon="@mipmap/ic_launcher"
+        android:id="@+id/bill_information"></item>
+
+    <item
+        android:title="Product Search"
+        android:id="@+id/product_search"></item>
+
+    <item
+        android:title="Resource Search"
+        android:id="@+id/search_resouce"></item>
+
+</menu>
