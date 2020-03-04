@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.chocofire.sawasdeepos">
+    package="com.senate_system.sawasdeepos">
 
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -8,15 +8,16 @@
 
     <application
         android:allowBackup="true"
-        android:name="com.chocofire.sawasdeepos.SharedParam"
+        android:name="com.senate_system.sawasdeepos.SharedParam"
         android:icon="@drawable/ratri_icon"
         android:largeHeap="true"
         android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
         android:roundIcon="@drawable/ratri_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SplashScreen"
+            android:name="com.senate_system.sawasdeepos.SplashScreen"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,43 +25,43 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity"
+        <activity android:name="com.senate_system.sawasdeepos.MainActivity"
             android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".Activity_Navigation"
+        <activity android:name="com.senate_system.sawasdeepos.Activity_Navigation"
             android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".Activity_TakeOrder_Menu"
+        <activity android:name="com.senate_system.sawasdeepos.Activity_TakeOrder_Menu"
             android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".Activity_Workstation"
+        <activity android:name="com.senate_system.sawasdeepos.Activity_Workstation"
             android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".Activity_CookingNote"
+        <activity android:name="com.senate_system.sawasdeepos.Activity_CookingNote"
             android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".Activity_MemberSearch"
+        <activity android:name="com.senate_system.sawasdeepos.Activity_MemberSearch"
             android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".Activity_MemberInfo"
+        <activity android:name="com.senate_system.sawasdeepos.Activity_MemberInfo"
             android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".Activity_MemberRightS"
+        <activity android:name="com.senate_system.sawasdeepos.Activity_MemberRightS"
             android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".Activity_ResourceMG"
+        <activity android:name="com.senate_system.sawasdeepos.Activity_ResourceMG"
             android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".Activity_SeachProduct"
+        <activity android:name="com.senate_system.sawasdeepos.Activity_SeachProduct"
             android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".Activity_CheckService"
+        <activity android:name="com.senate_system.sawasdeepos.Activity_CheckService"
             android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".Activity_ResourceInfo"
+        <activity android:name="com.senate_system.sawasdeepos.Activity_ResourceInfo"
             android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".Activity_SearchResource"
+        <activity android:name="com.senate_system.sawasdeepos.Activity_SearchResource"
             android:screenOrientation="portrait"></activity>
 
 

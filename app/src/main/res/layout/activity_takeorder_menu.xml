@@ -7,9 +7,8 @@
 
     <include
         android:id="@+id/actionbar_takeOrder"
-        layout="@layout/toolbar_takeorder"
-        layout_weight="1"
-        layout_width="match_parent"
+        android:layout="@layout/toolbar_takeorder"
+        android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -29,21 +28,19 @@
             <include
                 android:id="@+id/include_header"
                 layout="@layout/helpbar_takeorder"
-                layout_weight="1"
-                layout_width="match_parent"
+                android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <include
                 android:id="@+id/include_header2"
                 layout="@layout/helpbar_hotkey"
-                layout_weight="1"
-                layout_width="match_parent"
+                android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:visibility="gone" />
 
-            <android.support.v4.view.ViewPager
+            <androidx.viewpager.widget.ViewPager
                 android:id="@+id/pagerTakeOrder"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

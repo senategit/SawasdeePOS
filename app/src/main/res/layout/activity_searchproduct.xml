@@ -8,7 +8,7 @@
     <include
         android:id="@+id/actionbar_cookingnote"
         layout="@layout/toolbar"
-        layout_width="match_parent"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -16,7 +16,7 @@
         android:id="@+id/include_header_Search_Product"
         layout="@layout/helpbar_hotkey"
         layout_weight="1"
-        layout_width="match_parent"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone" />
